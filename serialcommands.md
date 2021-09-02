@@ -84,7 +84,7 @@ Prints out the scan results (access points and stations), the saved device names
   - stations (-st)  
   - names (-b)  
   - ssids (-ss)  
-  
+
 ## SELECT-DESELECT
 `select [<all/aps/stations/names>] [<id>]`  
 `deselect [<all/aps/stations/names>] [<id>]`  
@@ -94,7 +94,7 @@ Prints out the scan results (access points and stations), the saved device names
   - aps (-ap)  
   - stations (-st)  
   - names (-b)  
-  
+
 **ID** (optional): ID of the AP/station/device you want to select.  
 
 ## ADD-SSID
@@ -315,11 +315,11 @@ Will only work if you run a wifi scan first, i.e. `scan wifi -t 65s -ch 1`.
 `startap [-p <path][-s <ssid>] [-pswd <password>] [-ch <channel>] [-h] [-cp]`  
 Starts access point.  
 - **path** [-p] (optional, default = "/web"): Path to web files.  
-- **ssid** [-s] (optional, default = [settings ssid](https://github.com/spacehuhn/esp8266_deauther/blob/master/settings.md#ssid)): Network name.  
-- **password** [-pswd] (optional, default = [settings password](https://github.com/spacehuhn/esp8266_deauther/blob/master/settings.md#password)): Password.  
-- **channel** [-ch] (optional, default = [settings channel](https://github.com/spacehuhn/esp8266_deauther/blob/master/settings.md#channel)): Channel .  
-- **hidden** [-h] (optional, default = [settings hidden](https://github.com/spacehuhn/esp8266_deauther/blob/master/settings.md#hidden)): Hide SSID.  
-- **captiveportal** [-cp] (optional, default = [settings captiveportal](https://github.com/spacehuhn/esp8266_deauther/blob/master/settings.md#captiveportal)): Enable captiveportal.  
+- **ssid** [-s] (optional, default = [settings ssid](https://github.com/SoDebug/esp8266_kill/blob/master/settings.md#ssid)): Network name.  
+- **password** [-pswd] (optional, default = [settings password](https://github.com/SoDebug/esp8266_kill/blob/master/settings.md#password)): Password.  
+- **channel** [-ch] (optional, default = [settings channel](https://github.com/SoDebug/esp8266_kill/blob/master/settings.md#channel)): Channel .  
+- **hidden** [-h] (optional, default = [settings hidden](https://github.com/SoDebug/esp8266_kill/blob/master/settings.md#hidden)): Hide SSID.  
+- **captiveportal** [-cp] (optional, default = [settings captiveportal](https://github.com/SoDebug/esp8266_kill/blob/master/settings.md#captiveportal)): Enable captiveportal.  
 
 `stopap`  
 Stops access point.  
@@ -335,3 +335,4 @@ Changes display mode.
 - **packetmonitor**: draws packet graph (will only work when you're scanning at the same time)
 - **buttontest**: special mode for testing the buttons
 - **loading**: loading screen that is normally used when starting a scan over the display menu
+

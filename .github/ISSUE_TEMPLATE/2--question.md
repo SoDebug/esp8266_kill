@@ -8,4 +8,4 @@ assignees: ''
 ---
 
 > Please search for existing (open and closed) issues first to avoid duplicates.  
-Also have a look at the [Wiki](https://github.com/spacehuhntech/esp8266_deauther/wiki).  
+Also have a look at the [Wiki](https://github.com/SoDebug/esp8266_kill/wiki).  

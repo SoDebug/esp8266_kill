@@ -1,11 +1,11 @@
 /* =====================
    This software is licensed under the MIT License:
-   https://github.com/spacehuhntech/esp8266_deauther
+   https://github.com/SoDebug/esp8266_kill
    ===================== */
 
 extern "C" {
     // Please follow this tutorial:
-    // https://github.com/spacehuhn/esp8266_deauther/wiki/Installation#compiling-using-arduino-ide
+    // https://github.com/SoDebug/esp8266_kill/wiki/Installation#compiling-using-arduino-ide
     // And be sure to have the right board selected
   #include "user_interface.h"
 }
