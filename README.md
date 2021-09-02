@@ -29,8 +29,8 @@ It is command line based, which allows it to offer not just more features, but m
 
 ## Installation
 
-Please refer to the [installation guide in our wiki](https://github.com/spacehuhntech/esp8266_deauther/wiki/Installation).  
-If you're just looking for the .bin files, go to [releases](https://github.com/spacehuhn/esp8266_deauther/releases).  
+Please refer to the [installation guide in our wiki](https://github.com/SoDebug/esp8266_kill/wiki/Installation).  
+If you're just looking for the .bin files, go to [releases](https://github.com/SoDebug/esp8266_kill/releases).  
 
 ## About this project
 This software allows you to easily perform a variety of actions to test 802.11 wireless networks by using an inexpensive ESP8266 WiFi SoC (System On A Chip).  
